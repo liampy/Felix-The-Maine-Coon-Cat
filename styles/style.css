@@ -22,6 +22,7 @@ body{
   padding: 4px;
   margin-top: 5px;
   margin-right: 10px
+  filter: drop-shadow(.75em .75em .75em);
 }
 .fotky:hover{
   transform: scale(1.3);
