@@ -6,9 +6,6 @@
   font-size: medium;
   color:rgb(223, 255, 106);
   text-align: center;
-  text-shadow: 0 10px 10px 0 rgba(0, 0, 0, .50);
-  text-decoration-line: 10 px;
-  text-decoration-style: wavy;
 }
 body{
     margin:0px;
