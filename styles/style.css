@@ -24,7 +24,8 @@ body{
   margin-right: 10px
 }
 .fotky:hover{
-  transform: scale(1.2);
+  transform: scale(1.3);
+  filter: drop-shadow(.75em .75em)
 }
 .vids {
   background-color: white;
@@ -34,7 +35,7 @@ body{
   margin-right: 10px
 }
 .vids:hover{
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 .about {
   background-color: white;
@@ -43,7 +44,7 @@ body{
   margin-top: 5px;
 }
 .about:hover{
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 .box1{
   height:100px;
