@@ -1,14 +1,14 @@
 .container{
   background-color: white;
-  background-image: url(../images/pic1acp.jpg);
-  background-size: 50%;
+  background-image: url(../images/pic1c.jpeg);
+  background-size: 100%;
   padding-top:100px;
   padding-bottom: 100px;
   background-repeat: no-repeat;
   font: "Roboto";
   font-size: medium;
-  color:rgb(25, 206, 8);
-  text-align: center;
+  color:rgb(69, 224, 204);
+  text-align: top-center;
 }
 body{
     margin-left:50px;
