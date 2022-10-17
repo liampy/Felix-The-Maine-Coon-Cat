@@ -1,0 +1,13 @@
+
+body{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.box1{
+    height: 200px;
+    border-style: solid;
+    border: 2px;
+    border-color: black;
+    background-color: aqua;
+}
