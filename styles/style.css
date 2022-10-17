@@ -52,7 +52,7 @@ body{
   transform: scale(1.5);
   color:rgb(103, 165, 165);
 }
-.box1{
+.box1 {
   margin-top: 5px;
   height: auto;
   padding: 20px;
@@ -60,9 +60,9 @@ body{
   box-shadow: inset 4px 4px 10px;
   color:black;
 }
-.box2{
+.box2 {
   display:grid;
-  column-gap: 10px;
+  column-gap: 15px;
   grid-template-columns: auto auto;
   margin-top: 5px;
   height: auto;
@@ -71,7 +71,7 @@ body{
   box-shadow: inset 4px 4px 10px;
   color:black;
 }
-.box3{
+.imgbox2 {
   height: 259px;
   width: 300px;
   border-style: hidden;
@@ -79,4 +79,12 @@ body{
   border-color: black;
   background-image: url(../images/pic1a.jpg);
   background-repeat: no-repeat;
+}
+.but2 {
+  background-color: white;
+  border-width: 0px;
+  padding: 4px;
+  margin-top: 5px;
+  text-decoration: none;
+  color:black;
 }
