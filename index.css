@@ -30,14 +30,14 @@ nav{
   justify-content: center;
   align-items: center;
 }
-.fotky {
+.photos {
   background-color: white;
   border-width: 0px;
   padding: 4px;
   margin-top: 5px;
   margin-right: 20px
 }
-.fotky:hover{
+.photos:hover{
   transform: scale(1.5);
   color:rgb(103, 165, 165);
 }
