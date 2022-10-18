@@ -6,7 +6,6 @@
   padding-top:50px;
   padding-bottom: 100px;
   background-repeat: no-repeat;
-  font: "Roboto";
   font-size: medium;
   color:rgb(69, 224, 204);
   text-align: top-center;
@@ -15,7 +14,7 @@ body{
   margin-left:50px;
   margin-right: 50px;
 }
-nav{
+.nav{
   position:sticky;
   height: 50px;
   border: 1px;
@@ -26,29 +25,36 @@ nav{
 .menu-buttons{
   display: flex;
   height: 35px;
-  text-decoration: none;
   justify-content: center;
   align-items: center;
+  list-style-type:none;
+  font-family: Roboto;
+  color: black;
 }
 .photos {
   background-color: white;
   border-width: 0px;
   padding: 4px;
   margin-top: 5px;
-  margin-right: 20px
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 200;
 }
 .photos:hover{
   transform: scale(1.5);
   color:rgb(103, 165, 165);
 }
-.vids {
+.videos {
   background-color: white;
   border-width: 0px;
   padding: 4px;
   margin-top: 5px;
-  margin-right: 20px
+  margin-right: 20px;
+  text-decoration: none;
+  color:black;
 }
-.vids:hover{
+.videos:hover{
   transform: scale(1.5);
   color:rgb(103, 165, 165);
 }
@@ -57,6 +63,8 @@ nav{
   border-width: 0px;
   padding: 4px;
   margin-top: 5px;
+  text-decoration: none;
+  color:black;
 }
 .about:hover{
   transform: scale(1.5);
@@ -90,11 +98,4 @@ nav{
   background-image: url(../images/pic1a.jpg);
   background-repeat: no-repeat;
 }
-.but2 {
-  background-color: white;
-  border-width: 0px;
-  padding: 4px;
-  margin-top: 5px;
-  text-decoration: none;
-  color:black;
-}
+
