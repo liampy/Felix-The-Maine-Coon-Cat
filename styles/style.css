@@ -1,0 +1,63 @@
+.container{
+  background-color: white;
+  background-image: url(../images/pic1c.jpeg);
+  background-size: 100%;
+  padding-top:100px;
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  font: "Roboto";
+  font-size: medium;
+  color:rgb(25, 206, 8);
+  text-align: center;
+}
+body{
+    margin-left:50px;
+    margin-right: 50px;
+}
+.menu{
+  display: flex;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+}
+.fotky {
+  background-color: white;
+  border-width: 0px;
+  padding: 4px;
+  margin-top: 5px;
+  margin-right: 20px
+}
+.fotky:hover{
+  transform: scale(1.5);
+  color:rgb(103, 165, 165);
+  text-shadow: 3px 2px 1px rgb(120, 120, 120);
+}
+.vids {
+  background-color: white;
+  border-width: 0px;
+  padding: 4px;
+  margin-top: 5px;
+  margin-right: 20px
+}
+.vids:hover{
+  transform: scale(1.5);
+  text-shadow: 3px 2px 1px rgb(120, 120, 120);
+}
+.about {
+  background-color: white;
+  border-width: 0px;
+  padding: 4px;
+  margin-top: 5px;
+}
+.about:hover{
+  transform: scale(1.5);
+  text-shadow: 3px 2px 1px rgb(120, 120, 120);
+}
+.box1{
+  margin: 5px;
+  height: auto;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: inset 5px 5px 20px;
+  color:black;
+}
