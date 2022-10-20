@@ -1,3 +1,7 @@
+body{
+  margin-left:50px;
+  margin-right: 50px;
+}
 .photos-container{
     position: sticky;
     height: 200;
@@ -10,55 +14,30 @@
     font-size: medium;
     color:rgb(69, 224, 204);
     text-align: top-center;
-  }
-  body{
-    margin-left:50px;
-    margin-right: 50px;
-  }
-  nav{
+} 
+.nav{
     position:sticky;
     height: 50px;
     border: 1px;
     border-color: black;
     margin-top:0px;
     background-color: white;
-  }
-  .menu-buttons{
+}
+.menu-buttons{
     display: flex;
     height: 35px;
     text-decoration: none;
     justify-content: center;
     align-items: center;
-  }
-  .photos {
+}
+.home, .photos, .videos, .about {
     background-color: white;
     border-width: 0px;
     padding: 4px;
     margin-top: 5px;
     margin-right: 20px
-  }
-  .photos:hover{
+}
+.home:hover,.photos:hover, .videos:hover, .about:hover{
     transform: scale(1.5);
     color:rgb(103, 165, 165);
-  }
-  .videos {
-    background-color: white;
-    border-width: 0px;
-    padding: 4px;
-    margin-top: 5px;
-    margin-right: 20px
-  }
-  .videos:hover{
-    transform: scale(1.5);
-    color:rgb(103, 165, 165);
-  }
-  .about {
-    background-color: white;
-    border-width: 0px;
-    padding: 4px;
-    margin-top: 5px;
-  }
-  .about:hover{
-    transform: scale(1.5);
-    color:rgb(103, 165, 165);
-  }
+}
