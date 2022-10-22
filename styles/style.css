@@ -1,3 +1,12 @@
+body{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.header{
+  position: sticky;
+  margin-top: 0;
+}
 .container{
   background-color: white;
   background-image: url(../images/pic1c.jpeg);
@@ -8,56 +17,58 @@
   font: "Roboto";
   font-size: medium;
   color:rgb(25, 206, 8);
-  text-align: center;
+  text-align: top;
 }
-body{
-    margin-left:50px;
-    margin-right: 50px;
-}
-.menu{
+
+.menu-buttons {
   display: flex;
+  list-style: none;
   height: 35px;
   justify-content: center;
   align-items: center;
 }
-.fotky {
-  background-color: white;
-  border-width: 0px;
-  padding: 4px;
-  margin-top: 5px;
-  margin-right: 20px
-}
-.fotky:hover{
-  transform: scale(1.5);
-  color:rgb(103, 165, 165);
-  text-shadow: 3px 2px 1px rgb(120, 120, 120);
-}
-.vids {
-  background-color: white;
-  border-width: 0px;
-  padding: 4px;
-  margin-top: 5px;
-  margin-right: 20px
-}
-.vids:hover{
-  transform: scale(1.5);
-  text-shadow: 3px 2px 1px rgb(120, 120, 120);
-}
+
+.home,
+.photos,
+.videos,
 .about {
   background-color: white;
   border-width: 0px;
-  padding: 4px;
+  padding: 2px;
   margin-top: 5px;
+  margin-right: 20px;
 }
-.about:hover{
+
+.home:hover,
+.photos:hover,
+.videos:hover,
+.about:hover {
   transform: scale(1.5);
-  text-shadow: 3px 2px 1px rgb(120, 120, 120);
+  color:rgb(103, 165, 165);
+  box-shadow: 0 4px 2px -2px gray;
 }
+
 .box1{
+  margin-top: 5px;
+  height: auto;
+  max-width: auto;
+  padding: 5px;
+}
+
+.box2{
   margin: 5px;
   height: auto;
+  width: 1000px;
+  display:flex;
+  width: auto;
   padding: 5px;
-  border-radius: 5px;
-  box-shadow: inset 5px 5px 20px;
-  color:black;
+}
+
+.textbox2{
+  width:50ch;
+}
+
+.imgbox2{
+  background-image: url(../images/pic1a.jpg);
+  background-repeat: no-repeat;
 }
