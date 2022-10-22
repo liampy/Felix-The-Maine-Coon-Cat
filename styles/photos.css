@@ -1,43 +1,64 @@
 body{
-  margin-left:50px;
-  margin-right: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
-.photos-container{
-    position: sticky;
-    height: 200;
-    background-image: url(../images/pic1c.jpeg);
-    background-size: cover;
-    padding-top:50px;
-    padding-bottom: 100px;
-    background-repeat: no-repeat;
-    font: "Roboto";
-    font-size: medium;
-    color:rgb(69, 224, 204);
-    text-align: top-center;
-} 
+
+.container{
+  position: relative;
+  background-image: url(../images/pic1c.jpeg);
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-repeat: no-repeat; 
+}
+
+.title{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-family: roboto;
+  font-size: large;
+  color: rgb(252, 252, 252);
+  margin: 0;
+}
+
 .nav{
-    position:sticky;
-    height: 50px;
-    border: 1px;
-    border-color: black;
-    margin-top:0px;
-    background-color: white;
+  background-color: rgba(255, 255, 255, 0.822);
+  transform-style: preserve-3d;
+  position: sticky;
+  top: 0;
 }
-.menu-buttons{
-    display: flex;
-    height: 35px;
-    text-decoration: none;
-    justify-content: center;
-    align-items: center;
+
+.menu-buttons {
+  display: flex;
+  list-style: none;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
-.home, .photos, .videos, .about {
-    background-color: white;
-    border-width: 0px;
-    padding: 4px;
-    margin-top: 5px;
-    margin-right: 20px
+
+.home,
+.photos,
+.videos,
+.about {
+  background-color: rgba(255, 255, 255, 0);
+  border-width: 0px;
+  padding: 2px;
+  margin-top: 5px;
+  margin-right: 20px;
 }
-.home:hover,.photos:hover, .videos:hover, .about:hover{
-    transform: scale(1.5);
-    color:rgb(103, 165, 165);
+
+.home:hover,
+.photos:hover,
+.videos:hover,
+.about:hover {
+  transform: scale(1.5);
+  color:rgb(103, 165, 165);
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+.footer{
+  border-top: 1px solid black;
 }
