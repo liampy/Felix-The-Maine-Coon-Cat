@@ -72,3 +72,7 @@ body{
   background-image: url(../images/pic1a.jpg);
   background-repeat: no-repeat;
 }
+
+.footer{
+  border-top: 1px solid black;
+}
