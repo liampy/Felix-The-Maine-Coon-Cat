@@ -28,10 +28,7 @@ body{
   align-items: center;
 }
 
-.home,
-.photos,
-.videos,
-.about {
+.nav ul li {
   background-color: white;
   border-width: 0px;
   padding: 2px;
