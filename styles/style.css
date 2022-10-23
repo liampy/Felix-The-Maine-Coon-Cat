@@ -2,13 +2,14 @@
 @import "https://unpkg.com/open-props/normalize.min.css";
 
 body{
+  background-color: white;
   margin-left: 100px;
   margin-right: 100px;
 }
 
 .container{
   position: relative;
-  background-image: url(../images/pic1c.jpeg);
+  background-image: url(../images/pic1n.jpg);
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -36,7 +37,7 @@ body{
 .menu-buttons {
   display: flex;
   list-style: none;
-  height: 35px;
+  height: 50px;
   justify-content: center;
   align-items: center;
   margin: 0;
@@ -47,27 +48,30 @@ body{
 .photos,
 .videos,
 .about {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0.822);
   border-width: 0px;
   padding: 2px;
-  margin-top: 5px;
+  margin-top: 2px;
   margin-right: 20px;
+  color: black;
 }
 
 .home:hover,
 .photos:hover,
 .videos:hover,
 .about:hover {
+  background-color: rgba(255, 255, 255, 0.822);
   transform: scale(1.5);
   color:rgb(103, 165, 165);
   box-shadow: 0 4px 2px -2px gray;
 }
 
 .box1{
+  background-color: white;
   margin-top: 5px;
-  height: auto;
-  max-width: auto;
+  width: auto;
   padding: 5px;
+  color: black;
 }
 
 h2{
@@ -75,6 +79,7 @@ h2{
   font-weight: bold;
   margin-top: 5px;
   margin-bottom: 5px;
+  color: black;
 }
 
 .textbox2{
@@ -92,6 +97,7 @@ p{
   display:flex;
   width: auto;
   padding: 5px;
+  color: black;
 }
 
 .textbox2{
@@ -104,13 +110,14 @@ p{
 }
 
 #photo-divider{
-  height: 25px;
+  height: 30px;
   padding: 5px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   text-align: center;
   font-size: 16px;
   font-weight: bold;
+  color: black;
   
 }
 
@@ -127,4 +134,5 @@ p{
 }
 .footer{
   border-top: 1px solid black;
+  color: black;
 }
