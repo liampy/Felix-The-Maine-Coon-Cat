@@ -21,8 +21,8 @@ body{
   top: 10px;
   left: 10px;
   font-family: roboto;
-  font-size: largest;
-  color: rgb(252, 252, 252);
+  font-size: 20px;
+  color: rgb(5, 5, 5);
   margin: 0;
 }
 
@@ -69,10 +69,7 @@ body{
 }
 
 .box1{
-  background-color: white;
-  margin:0 100px 0 100px;
-  margin-top: 5px;
-  padding: 5px;
+  margin: 0 100px 0 100px;
   color: black;
 }
 
@@ -84,19 +81,13 @@ h2{
   color: black;
 }
 
-.textbox2{
-  margin-top:  5px;
-}
-
-p{
-  margin-top: 5px;
-  font-size: 10px;
+.p1{
+  font-size: 16px;
+  text-align: justify;
 }
 
 .box2{
   margin:0 100px 0 100px;
-  height: auto;
-  width: 1000px;
   display:flex;
   width: auto;
   padding: 5px;
@@ -104,8 +95,8 @@ p{
 }
 
 .imgbox2{
+  position: right;
   background-image: url(../images/pic1a.jpg);
-  background-repeat: no-repeat;
 }
 
 #photo-divider{
@@ -117,7 +108,6 @@ p{
   text-align: center;
   font-size: 16px;
   color: black;
-  
 }
 
 .pics{
@@ -130,6 +120,7 @@ p{
   grid-auto-columns: 23%;
   overflow-x: auto;
 }
+
 .footer{
   margin:0 100px 0 100px;
   border-top: 1px solid black;
