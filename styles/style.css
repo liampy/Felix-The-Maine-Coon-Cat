@@ -3,14 +3,14 @@
 
 body{
   background-color: white;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 .container{
   position: relative;
+  margin:0 100px 0 100px;
   background-image: url(../images/pic1n.jpg);
   background-size: cover;
+  padding-left: 3em;
   padding-top: 100px;
   padding-bottom: 100px;
   background-repeat: no-repeat; 
@@ -28,6 +28,7 @@ body{
 
 .nav{
   background-color: rgba(255, 255, 255, 0.822);
+  margin:0 100px 0 100px;
   position: sticky;
   top: 0;
   box-shadow: 0 4px 2px -2px gray;
@@ -36,7 +37,7 @@ body{
 .menu-buttons {
   display: flex;
   list-style: none;
-  height: 50px;
+  height: 40px;
   justify-content: center;
   align-items: center;
   margin: 0;
@@ -47,11 +48,12 @@ body{
 .photos,
 .videos,
 .about {
-  background-color: rgba(255, 255, 255, 0.822);
+  background-color: rgba(255,255,255,0);
   border-width: 0px;
   padding: 2px;
   margin-top: 2px;
   margin-right: 20px;
+  font-size: 16px;
   color: black;
 }
 
@@ -60,15 +62,16 @@ body{
 .videos:hover,
 .about:hover {
   background-color: rgba(255, 255, 255, 0.822);
-  transform: scale(1.5);
+  transform: scale(1.7);
+  border-radius: 5px;
   color:rgb(103, 165, 165);
   box-shadow: 0 4px 2px -2px gray;
 }
 
 .box1{
   background-color: white;
+  margin:0 100px 0 100px;
   margin-top: 5px;
-  width: auto;
   padding: 5px;
   color: black;
 }
@@ -91,7 +94,7 @@ p{
 }
 
 .box2{
-  margin: 5px;
+  margin:0 100px 0 100px;
   height: auto;
   width: 1000px;
   display:flex;
@@ -106,19 +109,19 @@ p{
 }
 
 #photo-divider{
-  height: 30px;
+  margin:0 100px 0 100px;
+  height: 40px;
   padding: 5px;
   border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  box-shadow: 0 4px 2px -2px gray;
   text-align: center;
   font-size: 16px;
-  font-weight: bold;
   color: black;
   
 }
 
 .pics{
-  margin-top: 10px;
+  margin:10px 100px 0 100px;
   height: auto;
   --_spacer: var(--size-2);
   display: grid;
@@ -126,9 +129,9 @@ p{
   grid-auto-flow: column;
   grid-auto-columns: 23%;
   overflow-x: auto;
-  margin: 0;
 }
 .footer{
+  margin:0 100px 0 100px;
   border-top: 1px solid black;
   color: black;
 }
