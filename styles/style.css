@@ -73,17 +73,17 @@ body{
   color: black;
 }
 
-.box1{
-  border: 1px solid black;
+.p1{
+  padding:0 5px 0 5px;
+  width: 60%;
 }
 
-.textbox1{
-  border: 1px solid black;
-}
 .imgbox2{
-  position: static;
   background-image: url(../images/pic1a.jpg);
+  background-repeat: no-repeat;
   right: 152px;
+  width: 40%;
+  border-radius: 5px;
 }
 
 #photo-divider{
@@ -109,4 +109,5 @@ body{
 .footer{
   border-top: 1px solid black;
   color: black;
+  height: 50px;
 }
