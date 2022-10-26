@@ -3,11 +3,11 @@
 
 body{
   background-color: white;
+  padding: 0 150px 0 150px;
 }
 
 .container{
   position: relative;
-  margin:0 100px 0 100px;
   background-image: url(../images/pic1n.jpg);
   background-size: cover;
   padding-left: 3em;
@@ -23,12 +23,10 @@ body{
   font-family: roboto;
   font-size: 20px;
   color: rgb(5, 5, 5);
-  margin: 0;
 }
 
 .nav{
   background-color: rgba(255, 255, 255, 0.822);
-  margin:0 100px 0 100px;
   position: sticky;
   top: 0;
   box-shadow: 0 4px 2px -2px gray;
@@ -69,41 +67,26 @@ body{
 }
 
 .box1{
-  margin: 0 100px 0 100px;
+  display: flex;
   width: auto;
+  padding: 5px;
+  color: black;
+}
+
+.box1{
   border: 1px solid black;
-  color: black;
 }
 
-h2{
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  color: black;
-  padding: 5px;
+.textbox1{
+  border: 1px solid black;
 }
-
-.p1{
-  padding: 5px;
-  text-align: justify;
-}
-
-.box2{
-  margin:0 100px 0 100px;
-  display:flex;
-  width: auto;
-  padding: 5px;
-  color: black;
-}
-
 .imgbox2{
-  position: right;
+  position: static;
   background-image: url(../images/pic1a.jpg);
+  right: 152px;
 }
 
-.photo-divider{
-  margin:0 100px 0 100px;
+#photo-divider{
   height: 40px;
   padding: 5px;
   border-top: 1px solid black;
@@ -114,7 +97,6 @@ h2{
 }
 
 .pics{
-  margin:10px 100px 0 100px;
   height: auto;
   --_spacer: var(--size-2);
   display: grid;
@@ -125,7 +107,6 @@ h2{
 }
 
 .footer{
-  margin:0 100px 0 100px;
   border-top: 1px solid black;
   color: black;
 }
