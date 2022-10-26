@@ -100,10 +100,15 @@ body{
   height: auto;
   --_spacer: var(--size-2);
   display: grid;
+  grid-area: 2,0;
+  grid-template-columns: auto auto auto auto;
   gap: var(--_spacer);
-  grid-auto-flow: column;
-  grid-auto-columns: 23%;
-  overflow-x: auto;
+}
+
+.pics > div:hover{
+  transform: scale(1.3);
+  display: block;
+  position: center;
 }
 
 .footer{
