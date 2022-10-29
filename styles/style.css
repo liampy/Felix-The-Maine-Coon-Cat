@@ -8,9 +8,10 @@ body{
 
 .container{
   position: relative;
-  background-image: url(../images/pic1h.jpg);
+  background-image: url(../images/pic1e.jpg);
   background-size: cover;
-  height: 20em;
+  background-position: center;
+  height: 15em;
   background-repeat: no-repeat; 
 }
 
@@ -20,7 +21,7 @@ body{
   left: 10px;
   font-family: roboto;
   font-size: 20px;
-  color: rgb(5, 5, 5);
+  color: rgb(255, 255, 255);
 }
 
 .nav{
@@ -36,7 +37,6 @@ body{
   height: 40px;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .home,
@@ -64,25 +64,23 @@ body{
 }
 
 .box1{
-  display: flex;
-  width: auto;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  width: 100%;
   padding: 5px;
   color: black;
-  flex-wrap: wrap;
+  
 }
 
 .p1{
   padding:0 5px 0 5px;
-  max-width: 50ch;
 }
 
 .imgbox2{
   background-image: url(../images/pic1a.jpg);
   background-repeat: no-repeat;
-  object-fit: inherit;
-  right: 152px;
-  width: 252px;
-  height:300px;
+  background-size: cover;
+  height: 15em;
   border-radius: 5px;
 }
 
@@ -98,10 +96,11 @@ body{
 
 .pics{
   height: auto;
-  --_spacer: var(--size-2);
+  --_spacer: var(--size-3);
   display: grid;
   grid-area: 2,0;
   grid-template-columns: auto auto auto auto;
+  border: 0.2em solid black;
   gap: var(--_spacer);
 }
 
