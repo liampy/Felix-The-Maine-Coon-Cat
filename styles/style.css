@@ -33,7 +33,7 @@ body{
 
 .nav{
   background-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 .5em .5em 0 black;
+  box-shadow: 0 .5em .5em -.2em black;
 }
 
 .menu-buttons {
@@ -89,7 +89,7 @@ body{
 #photo-divider{
   background-color: rgba(255, 255, 255, 0.2);
   height: 2.5em;
-  box-shadow: 0 .5em .5em 0 black;
+  box-shadow: 0 .5em .5em -.2em black;
   padding: 7px;
   font-size: 1em;
   font-weight: 500;
