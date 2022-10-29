@@ -8,10 +8,9 @@ body{
 
 .container{
   position: relative;
-  background-image: url(../images/pic1c.jpeg);
+  background-image: url(../images/pic1h.jpg);
   background-size: cover;
-  background-position: top;
-  height: 15em;
+  height: 20em;
   background-repeat: no-repeat; 
 }
 
@@ -85,10 +84,6 @@ body{
   width: 252px;
   height:300px;
   border-radius: 5px;
-}
-
-.img3{
-  box-shadow: inset 1em 0 0 0 rgb(19, 18, 18);
 }
 
 #photo-divider{
