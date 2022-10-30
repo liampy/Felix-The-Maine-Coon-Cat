@@ -2,44 +2,39 @@
 @import "https://unpkg.com/open-props/normalize.min.css";
 
 body{
-  background-color: rgb(255, 255, 255);
-  padding: 2em 15% 0 15%;
-}
-
-.midline{
-  background-color: rgb(0, 99, 66);
-}
-
-.header{
-  position: sticky;
-  top: 0;
+  background-color: white;
+  padding: 0 15% 0 15%;
 }
 
 .container{
   position: relative;
-  height: 10em;
-  text-align: center;
-  background-color: rgb(0, 99, 66); 
+  background-image: url(../images/pic1e.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 15em;
+  background-repeat: no-repeat; 
 }
 
 .title{
-  position: relative;
-  top: 1em;
+  position: absolute;
+  top: 10px;
+  left: 10px;
   font-family: roboto;
-  font-size: 3em;
-  display: inline;
+  font-size: 20px;
   color: rgb(255, 255, 255);
 }
 
 .nav{
-  background-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 .5em .5em -.2em black;
+  background-color: rgba(255, 255, 255, 0.822);
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 2px -2px gray;
 }
 
 .menu-buttons {
   display: flex;
   list-style: none;
-  height: 2.5em;
+  height: 40px;
   justify-content: center;
   align-items: center;
 }
@@ -53,8 +48,7 @@ body{
   padding: 2px;
   margin-top: 2px;
   margin-right: 20px;
-  font-size: 1em;
-  font-weight: 500;
+  font-size: 16px;
   color: black;
 }
 
@@ -62,16 +56,17 @@ body{
 .photos:hover,
 .videos:hover,
 .about:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.822);
   transform: scale(1.7);
   border-radius: 5px;
-  color: black;
+  color:rgb(103, 165, 165);
   box-shadow: 0 4px 2px -2px gray;
 }
 
-
 .box1{
-  display: flex;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  width: 100%;
   padding: 5px;
   color: black;
 }
@@ -80,33 +75,31 @@ body{
   padding:0 5px 0 5px;
 }
 
-.imgbox1{
- align-items: center;
- height: 100%;
- width: fit-content;
+.imgbox2{
+  background-image: url(../images/pic1a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15em;
+  border-radius: 5px;
 }
 
 #photo-divider{
-  background-color: rgba(255, 255, 255, 0.2);
-  height: 2.5em;
-  box-shadow: 0 .5em .5em -.2em black;
-  padding: 7px;
-  font-size: 1em;
-  font-weight: 500;
+  height: 2em;
+  border-top: 1px solid black;
+  box-shadow: 0 4px 2px -2px gray;
   text-align: center;
+  font-size: 1em;
   color: black;
 }
 
 .pics{
-  margin-top: 2em;
   height: auto;
-  --_spacer: var(--size-2);
+  --_spacer: var(--size-3);
   display: grid;
   flex-wrap: wrap;
   grid-area: 2,0;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: repeat(auto-fill; auto auto auto;
   gap: var(--_spacer);
-  background-color: rgb(0, 99, 66);
 }
 
 .pics > div:hover{
@@ -120,5 +113,4 @@ body{
   border-top: 1px solid black;
   color: black;
   height: 50px;
-  background-color: rgb(0, 99, 66);
 }
