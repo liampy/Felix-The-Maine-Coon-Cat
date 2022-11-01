@@ -20,10 +20,11 @@ body{
   float: right;
 }
 
-h1{
+.title{
   font-family: roboto;
-  font-size: 3em;
-  color: rgb(94, 160, 160);
+  font-size: 4em;
+  font-weight: 600;
+  color: rgb(87, 172, 172);
   text-align: center;
 }
 
