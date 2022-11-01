@@ -51,10 +51,9 @@ body{
 .videos,
 .about {
   background-color: rgba(255,255,255,0);
-  border-width: 0px;
-  padding: 2px;
-  margin-top: 2px;
-  margin-right: 20px;
+  padding: .2em;
+  margin-top: .2em;
+  margin-right: 1em;
   font-size: 1.5em;
   font-weight: 500;
   color: black;
