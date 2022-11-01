@@ -22,7 +22,7 @@ body{
 
 .title{
   font-family: roboto;
-  font-size: 4em;
+  font-size: 3em;
   font-weight: 600;
   color: rgb(87, 172, 172);
   text-align: center;
@@ -124,6 +124,22 @@ img{
   display: block;
   position: center;
   transform: scale(1.1);
+}
+
+.video-divider{
+  height: 2.5em;
+  margin-top: .2em;
+  background-color: rgb(103, 161, 161);
+  box-shadow: 0 4px 2px -2px black;
+  align-items: center;
+  justify-content: center;
+}
+
+.vid{
+  font-size: 1.5em;
+  font-weight: 500;
+  color: black;
+  text-align: center;
 }
 
 .footer{
