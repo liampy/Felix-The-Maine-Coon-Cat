@@ -93,7 +93,7 @@ img{
   border-radius: 8px;
 }
 
-.photo-divider{
+#photo-divider{
   height: 2.5em;
   margin-top: .2em;
   background-color: rgb(103, 161, 161);
