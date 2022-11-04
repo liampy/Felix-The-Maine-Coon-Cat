@@ -7,21 +7,35 @@ body{
 }
 
 .header{
-    position:sticky;
-    top: 0;
-    background-image: linear-gradient(to right,rgb(12, 243, 135), rgb(187, 238, 3));
+  position: sticky;
+  top: 0;
+}
+.nav{
+  position: sticky;
+  top: 0;
+  background-color: rgba(103, 161, 161, .5);
+  box-shadow: 0 4px 2px -2px black;
 }
 
 .container{
-  position: relative;
   height: 15em;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 30em 30em 30em;
+  grid-template-areas: 
+    ".title .title .fix"
+    ".box1 .fix"
 }
 
 .fix{
-  float: right;
-  box-shadow: 1em 1em 1em black;
+  height: 12em;
+  width: 12em;
+  margin-left: 10em;
+  top: -3em;
+  left: 45em;
+  background-image: url(../images/pic3.jpg);
+  background-size: cover;
+  box-shadow: .5em .5em 1em black;
+  border: 1px solid black;
 }
 
 .title{
@@ -29,14 +43,13 @@ body{
   font-size: 3em;
   font-weight: 600;
   color: rgb(87, 172, 172);
+  background-image: -moz-linear-gradient(to right,rgb(9, 219, 174),rgb(229, 255, 0));
+  border:1px solid black;
 }
 
 
 
-.nav{
-  background-color: rgb(103, 161, 161);
-  box-shadow: 0 4px 2px -2px black;
-}
+
 
 .menu-buttons {
   display: flex;
@@ -78,15 +91,11 @@ body{
   width: 100%;
   padding: .3em;
   color: black;
+  border: 1px solid black;
 }
 
 .p1{
   padding:0 1em 0 1em;
-}
-
-.imgbox1{
-  height: auto;
-  float: right;
 }
 
 img{
