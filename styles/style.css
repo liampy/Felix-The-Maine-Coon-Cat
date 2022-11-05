@@ -19,17 +19,12 @@ body{
 
 .container{
   height: 15em;
-  display: grid;
-  grid-template-columns: 30em 30em 30em;
-  grid-template-areas: 
-    ".title .title .fix"
-    ".box1 .fix"
+  display: flex;
 }
 
 .fix{
   height: 12em;
   width: 12em;
-  margin-left: 10em;
   top: -3em;
   left: 45em;
   background-image: url(../images/pic3.jpg);
@@ -40,11 +35,10 @@ body{
 
 .title{
   font-family: roboto;
-  font-size: 3em;
+  font-size: 1em;
   font-weight: 600;
   color: rgb(87, 172, 172);
-  background-image: -moz-linear-gradient(to right,rgb(9, 219, 174),rgb(229, 255, 0));
-  border:1px solid black;
+  background-image:linear-gradient(to right,rgb(9, 219, 174),rgb(229, 255, 0));
 }
 
 
