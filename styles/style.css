@@ -14,7 +14,7 @@ img{border-radius: 8px;}
 .header{
   position: sticky;
   top: 0;
-  background-image:linear-gradient(to right,rgb(9, 219, 174),rgb(229, 255, 0));
+  background-image:linear-gradient(to right,rgb(96,125,139),rgb(38,50,56));
 }
 
 .title{
@@ -22,7 +22,7 @@ img{border-radius: 8px;}
   font-size: 2em;
   text-align: center;
   font-weight: 600;
-  color: rgb(46, 172, 172);
+  color: #005b4f;
   background-image: linear-gradient(to right,rgb(9, 219, 174),rgb(198, 219, 6));
 }
 .nav{
@@ -51,9 +51,9 @@ img{border-radius: 8px;}
 }
 
 .home:hover,.photos:hover,.videos:hover,.about:hover {
-  //background-color: rgba(103, 161, 161,.3);
+  background-color: rgba(103, 161, 161,.3);
   text-decoration:underline;
-  //transform: scale(1.2);
+  transform: scale(1.2);
   border-radius: 10px;
   color:rgb(0, 0, 0);
   box-shadow: 0 4px 2px -2px black;
@@ -88,7 +88,7 @@ img{border-radius: 8px;}
 .pho{
   font-size: 1.5em;
   font-weight: 500;
-  color: black;
+  color: #005b4f;
   text-align: center;
 }
 
@@ -121,13 +121,16 @@ img{border-radius: 8px;}
 .vid{
   font-size: 1.5em;
   font-weight: 500;
-  color: black;
+  color: #005b4f;
   text-align: center;
 }
 
 .vids{
-  display:flex
-  
+  margin-top: 1em;
+  --_spacer: var(--size-2);
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: var(--_spacer);
 }
 
 .footer{
